@@ -51,7 +51,7 @@ export default function Body() {
 var FETCH = 'https://xomwdkz2n3.execute-api.ca-central-1.amazonaws.com/production'  // AWS Lambda
 // var FETCH = 'http://localhost:8080';
 /////////////////////////////////////////////////// events/hourly
-var xu = 0
+
 useEffect(() => {
   const getDataEventsHourly = () => {
     fetch(FETCH+'/events/hourly', {
